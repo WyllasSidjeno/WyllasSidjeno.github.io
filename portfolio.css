@@ -1,0 +1,56 @@
+/* Personnel au portfolio. */
+:root{
+    --couleurPortfolio: rgb(226, 195, 156);
+    
+    --fondDEcran: url("images/Portfolio/bg.png");
+}
+
+/* Redefinition des élements sémentiques */
+aside li{
+    margin-left: -5vw;
+    margin-top: 0.7vh;
+}
+
+article img{
+    margin-top: 3vh;
+    max-width: 5%;
+    min-width: 60px;
+}
+
+aside h2{
+    margin-bottom: 1vh;
+}
+
+/* ID sur éléments sémantiques */
+body#portfolio{
+    background-image:var(--fondDEcran);
+}
+
+header#portfolio{
+    background-color: var(--couleurPortfolio);
+}
+
+footer#portfolio{
+    background-color: var(--couleurPortfolio);
+}
+
+/* Classe sur les éléments sémantiques */
+
+section.portfolio{
+    background-color: var(--couleurPortfolio);
+}
+
+/* Id */
+#reseausociaux{
+    width: 90%;
+}
+
+#liste{
+    width: 90%;
+    margin-top: 1.5vh;
+    margin-bottom: 0.75vh;
+}
+
+section p {
+    margin-top: 1.5vh;
+}

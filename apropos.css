@@ -1,0 +1,42 @@
+/* Personnel au portfolio. */
+:root{
+    --couleurPortfolio: rgb(255, 250, 238);
+    --fondDEcran: url("images/APropos/AProposBG.webp");
+}
+
+/* ID sur éléments sémantiques */
+body#apropos{
+    background-image:var(--fondDEcran);
+}
+
+header#apropos{
+    background-color: var(--couleurPortfolio);
+}
+
+footer#apropos{
+    background-color: var(--couleurPortfolio);
+}
+
+/* Classe sur les éléments sémantiques */
+
+section.apropos{
+    background-color: var(--couleurPortfolio);
+}
+
+article.Flex.Row{
+    flex-direction: row;
+    text-align: center;
+    width: 90%;
+}
+
+article.Flex.Row div{
+    margin-top: 3vh;
+    width: 20%;
+    min-width: 150px;
+}
+article.Flex.Row div img{
+    object-fit: scale-down;
+    border-radius: 20%;
+    width: 100%;
+ 
+}

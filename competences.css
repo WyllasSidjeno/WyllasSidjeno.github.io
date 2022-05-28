@@ -1,0 +1,45 @@
+/* Personnel au portfolio. */
+:root{
+    --couleurPortfolio: rgb(239, 243 , 210);
+    
+    --fondDEcran: url("images/Competences/CompetencesBG.jpg");
+}
+
+/* ID sur éléments sémantiques */
+body#competences{
+    background-image:var(--fondDEcran);
+}
+
+header#competences{
+    background-color: var(--couleurPortfolio);
+}
+
+footer#competences{
+    background-color: var(--couleurPortfolio);
+}
+
+/* Classe sur les éléments sémantiques */
+
+section.competences{
+    background-color: var(--couleurPortfolio);
+}
+
+article.Flex.Row{
+    margin-top: 1vh;
+   width: 100%;
+}
+article.Flex.Row div{
+    width: 23%;
+    min-width: 200px;
+}
+
+.Flex.Row img{
+    width: 12%;
+    max-height: 170px;
+    min-width: 50px;
+}
+
+p{
+    margin-top: 0.7vh;
+}
+
